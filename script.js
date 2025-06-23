@@ -1,340 +1,104 @@
 // Список команд
-const blockActive = () => {
-  $(".cmd__1 details summary div svg").toggleClass("fillActive");
-  $(".cmd__1 details summary svg").toggleClass("transformActive");
-}
-const blockActive2 = () => {
-  $(".cmd__2 details summary div svg").toggleClass("fillActive");
-  $(".cmd__2 details summary svg").toggleClass("transformActive");
-}
-const blockActive3 = () => {
-  $(".cmd__3 details summary div svg").toggleClass("fillActive");
-  $(".cmd__3 details summary svg").toggleClass("transformActive");
-}
-const blockActive4 = () => {
-  $(".cmd__4 details summary div svg").toggleClass("fillActive");
-  $(".cmd__4 details summary svg").toggleClass("transformActive");
-}
-const blockActive5 = () => {
-  $(".cmd__5 details summary div svg").toggleClass("fillActive");
-  $(".cmd__5 details summary svg").toggleClass("transformActive");
-}
-const blockActive6 = () => {
-  $(".cmd__6 details summary div svg").toggleClass("fillActive");
-  $(".cmd__6 details summary svg").toggleClass("transformActive");
-}
-const blockActive7 = () => {
-  $(".cmd__7 details summary div svg").toggleClass("fillActive");
-  $(".cmd__7 details summary svg").toggleClass("transformActive");
-}
-const blockActive8 = () => {
-  $(".cmd__8 details summary div svg").toggleClass("fillActive");
-  $(".cmd__8 details summary svg").toggleClass("transformActive");
-}
-const blockActive9 = () => {
-  $(".cmd__9 details summary div svg").toggleClass("fillActive");
-  $(".cmd__9 details summary svg").toggleClass("transformActive");
-}
-const blockActive10 = () => {
-  $(".cmd__10 details summary div svg").toggleClass("fillActive");
-  $(".cmd__10 details summary svg").toggleClass("transformActive");
-}
-const blockActive11 = () => {
-  $(".cmd__11 details summary div svg").toggleClass("fillActive");
-  $(".cmd__11 details summary svg").toggleClass("transformActive");
-}
-const blockActive12 = () => {
-  $(".cmd__12 details summary div svg").toggleClass("fillActive");
-  $(".cmd__12 details summary svg").toggleClass("transformActive");
-}
-const blockActive13 = () => {
-  $(".cmd__13 details summary div svg").toggleClass("fillActive");
-  $(".cmd__13 details summary svg").toggleClass("transformActive");
-}
-const blockActive14 = () => {
-  $(".cmd__14 details summary div svg").toggleClass("fillActive");
-  $(".cmd__14 details summary svg").toggleClass("transformActive");
-}
-const blockActive15 = () => {
-  $(".cmd__15 details summary div svg").toggleClass("fillActive");
-  $(".cmd__15 details summary svg").toggleClass("transformActive");
-}
-const blockActive16 = () => {
-  $(".cmd__16 details summary div svg").toggleClass("fillActive");
-  $(".cmd__16 details summary svg").toggleClass("transformActive");
-}
-const blockActive17 = () => {
-  $(".cmd__17 details summary div svg").toggleClass("fillActive");
-  $(".cmd__17 details summary svg").toggleClass("transformActive");
-}
-const blockActive18 = () => {
-  $(".cmd__18 details summary div svg").toggleClass("fillActive");
-  $(".cmd__18 details summary svg").toggleClass("transformActive");
-}
-const blockActive19 = () => {
-  $(".cmd__19 details summary div svg").toggleClass("fillActive");
-  $(".cmd__19 details summary svg").toggleClass("transformActive");
-}
-const blockActive20 = () => {
-  $(".cmd__20 details summary div svg").toggleClass("fillActive");
-  $(".cmd__20 details summary svg").toggleClass("transformActive");
-}
-const blockActive21 = () => {
-  $(".cmd__21 details summary div svg").toggleClass("fillActive");
-  $(".cmd__21 details summary svg").toggleClass("transformActive");
-}
-const blockActive22 = () => {
-  $(".cmd__22 details summary div svg").toggleClass("fillActive");
-  $(".cmd__22 details summary svg").toggleClass("transformActive");
-}
-const blockActive23 = () => {
-  $(".cmd__23 details summary div svg").toggleClass("fillActive");
-  $(".cmd__23 details summary svg").toggleClass("transformActive");
-}
-const blockActive24 = () => {
-  $(".cmd__24 details summary div svg").toggleClass("fillActive");
-  $(".cmd__24 details summary svg").toggleClass("transformActive");
-}
-const blockActive25 = () => {
-  $(".cmd__25 details summary div svg").toggleClass("fillActive");
-  $(".cmd__25 details summary svg").toggleClass("transformActive");
-}
-const blockActive26 = () => {
-  $(".cmd__26 details summary div svg").toggleClass("fillActive");
-  $(".cmd__26 details summary svg").toggleClass("transformActive");
-}
-const blockActive27 = () => {
-  $(".cmd__27 details summary div svg").toggleClass("fillActive");
-  $(".cmd__27 details summary svg").toggleClass("transformActive");
-}
-const blockActive28 = () => {
-  $(".cmd__28 details summary div svg").toggleClass("fillActive");
-  $(".cmd__28 details summary svg").toggleClass("transformActive");
-}
-const blockActive29 = () => {
-  $(".cmd__29 details summary div svg").toggleClass("fillActive");
-  $(".cmd__29 details summary svg").toggleClass("transformActive");
-}
-const blockActive30 = () => {
-  $(".cmd__30 details summary div svg").toggleClass("fillActive");
-  $(".cmd__30 details summary svg").toggleClass("transformActive");
-}
-const blockActive31 = () => {
-  $(".cmd__31 details summary div svg").toggleClass("fillActive");
-  $(".cmd__31 details summary svg").toggleClass("transformActive");
-}
-const blockActive32 = () => {
-  $(".cmd__32 details summary div svg").toggleClass("fillActive");
-  $(".cmd__32 details summary svg").toggleClass("transformActive");
-}
-const blockActive33 = () => {
-  $(".cmd__33 details summary div svg").toggleClass("fillActive");
-  $(".cmd__33 details summary svg").toggleClass("transformActive");
-}
-const blockActive34 = () => {
-  $(".cmd__34 details summary div svg").toggleClass("fillActive");
-  $(".cmd__34 details summary svg").toggleClass("transformActive");
-}
-const blockActive35 = () => {
-  $(".cmd__35 details summary div svg").toggleClass("fillActive");
-  $(".cmd__35 details summary svg").toggleClass("transformActive");
-}
-const blockActive36 = () => {
-  $(".cmd__36 details summary div svg").toggleClass("fillActive");
-  $(".cmd__36 details summary svg").toggleClass("transformActive");
-}
-const blockActive37 = () => {
-  $(".cmd__37 details summary div svg").toggleClass("fillActive");
-  $(".cmd__37 details summary svg").toggleClass("transformActive");
-}
-const blockActive38 = () => {
-  $(".cmd__38 details summary div svg").toggleClass("fillActive");
-  $(".cmd__38 details summary svg").toggleClass("transformActive");
-}
-const blockActive39 = () => {
-  $(".cmd__39 details summary div svg").toggleClass("fillActive");
-  $(".cmd__39 details summary svg").toggleClass("transformActive");
-}
-const blockActive40 = () => {
-  $(".cmd__40 details summary div svg").toggleClass("fillActive");
-  $(".cmd__40 details summary svg").toggleClass("transformActive");
-}
-const blockActive41 = () => {
-  $(".cmd__41 details summary div svg").toggleClass("fillActive");
-  $(".cmd__41 details summary svg").toggleClass("transformActive");
-}
-const blockActive42 = () => {
-  $(".cmd__42 details summary div svg").toggleClass("fillActive");
-  $(".cmd__42 details summary svg").toggleClass("transformActive");
-}
-const blockActive43 = () => {
-  $(".cmd__43 details summary div svg").toggleClass("fillActive");
-  $(".cmd__43 details summary svg").toggleClass("transformActive");
-}
-const blockActive44 = () => {
-  $(".cmd__44 details summary div svg").toggleClass("fillActive");
-  $(".cmd__44 details summary svg").toggleClass("transformActive");
-}
-const blockActive45 = () => {
-  $(".cmd__45 details summary div svg").toggleClass("fillActive");
-  $(".cmd__45 details summary svg").toggleClass("transformActive");
-}
-const blockActive46 = () => {
-  $(".cmd__46 details summary div svg").toggleClass("fillActive");
-  $(".cmd__46 details summary svg").toggleClass("transformActive");
-}
-const blockActive47 = () => {
-  $(".cmd__47 details summary div svg").toggleClass("fillActive");
-  $(".cmd__47 details summary svg").toggleClass("transformActive");
-}
-const blockActive48 = () => {
-  $(".cmd__48 details summary div svg").toggleClass("fillActive");
-  $(".cmd__48 details summary svg").toggleClass("transformActive");
-}
-const blockActive49 = () => {
-  $(".cmd__49 details summary div svg").toggleClass("fillActive");
-  $(".cmd__49 details summary svg").toggleClass("transformActive");
-}
-const blockActive50 = () => {
-  $(".cmd__50 details summary div svg").toggleClass("fillActive");
-  $(".cmd__50 details summary svg").toggleClass("transformActive");
-}
-const blockActive51 = () => {
-  $(".cmd__51 details summary div svg").toggleClass("fillActive");
-  $(".cmd__51 details summary svg").toggleClass("transformActive");
-}
-const blockActive52 = () => {
-  $(".cmd__52 details summary div svg").toggleClass("fillActive");
-  $(".cmd__52 details summary svg").toggleClass("transformActive");
-}
-const blockActive53 = () => {
-  $(".cmd__53 details summary div svg").toggleClass("fillActive");
-  $(".cmd__53 details summary svg").toggleClass("transformActive");
-}
-const blockActive54 = () => {
-  $(".cmd__54 details summary div svg").toggleClass("fillActive");
-  $(".cmd__54 details summary svg").toggleClass("transformActive");
-}
-const blockActive55 = () => {
-  $(".cmd__55 details summary div svg").toggleClass("fillActive");
-  $(".cmd__55 details summary svg").toggleClass("transformActive");
-}
-const blockActive56 = () => {
-  $(".cmd__56 details summary div svg").toggleClass("fillActive");
-  $(".cmd__56 details summary svg").toggleClass("transformActive");
-}
-const blockActive57 = () => {
-  $(".cmd__57 details summary div svg").toggleClass("fillActive");
-  $(".cmd__57 details summary svg").toggleClass("transformActive");
-}
-const blockActive58 = () => {
-  $(".cmd__58 details summary div svg").toggleClass("fillActive");
-  $(".cmd__58 details summary svg").toggleClass("transformActive");
-}
-const blockActive59 = () => {
-  $(".cmd__59 details summary div svg").toggleClass("fillActive");
-  $(".cmd__59 details summary svg").toggleClass("transformActive");
-}
-const blockActive60 = () => {
-  $(".cmd__60 details summary div svg").toggleClass("fillActive");
-  $(".cmd__60 details summary svg").toggleClass("transformActive");
-}
-const blockActive61 = () => {
-  $(".cmd__61 details summary div svg").toggleClass("fillActive");
-  $(".cmd__61 details summary svg").toggleClass("transformActive");
-}
-const blockActive62 = () => {
-  $(".cmd__62 details summary div svg").toggleClass("fillActive");
-  $(".cmd__62 details summary svg").toggleClass("transformActive");
-}
-const blockActive63 = () => {
-  $(".cmd__63 details summary div svg").toggleClass("fillActive");
-  $(".cmd__63 details summary svg").toggleClass("transformActive");
-}
-const blockActive64 = () => {
-  $(".cmd__64 details summary div svg").toggleClass("fillActive");
-  $(".cmd__64 details summary svg").toggleClass("transformActive");
-}
-const blockActive65 = () => {
-  $(".cmd__65 details summary div svg").toggleClass("fillActive");
-  $(".cmd__65 details summary svg").toggleClass("transformActive");
-}
-const blockActive66 = () => {
-  $(".cmd__66 details summary div svg").toggleClass("fillActive");
-  $(".cmd__66 details summary svg").toggleClass("transformActive");
-}
-const blockActive67 = () => {
-  $(".cmd__67 details summary div svg").toggleClass("fillActive");
-  $(".cmd__67 details summary svg").toggleClass("transformActive");
-}
-const blockActive68 = () => {
-  $(".cmd__68 details summary div svg").toggleClass("fillActive");
-  $(".cmd__68 details summary svg").toggleClass("transformActive");
-}
-const blockActive69 = () => {
-  $(".cmd__69 details summary div svg").toggleClass("fillActive");
-  $(".cmd__69 details summary svg").toggleClass("transformActive");
-}
-const blockActive70 = () => {
-  $(".cmd__70 details summary div svg").toggleClass("fillActive");
-  $(".cmd__70 details summary svg").toggleClass("transformActive");
-}
-const blockActive71 = () => {
-  $(".cmd__71 details summary div svg").toggleClass("fillActive");
-  $(".cmd__71 details summary svg").toggleClass("transformActive");
-}
-const blockActive72 = () => {
-  $(".cmd__72 details summary div svg").toggleClass("fillActive");
-  $(".cmd__72 details summary svg").toggleClass("transformActive");
-}
-const blockActive73 = () => {
-  $(".cmd__73 details summary div svg").toggleClass("fillActive");
-  $(".cmd__73 details summary svg").toggleClass("transformActive");
-}
-const blockActive74 = () => {
-  $(".cmd__74 details summary div svg").toggleClass("fillActive");
-  $(".cmd__74 details summary svg").toggleClass("transformActive");
-}
-const blockActive75 = () => {
-  $(".cmd__75 details summary div svg").toggleClass("fillActive");
-  $(".cmd__75 details summary svg").toggleClass("transformActive");
-}
-const blockActive76 = () => {
-  $(".cmd__76 details summary div svg").toggleClass("fillActive");
-  $(".cmd__76 details summary svg").toggleClass("transformActive");
-}
-const blockActive77 = () => {
-  $(".cmd__77 details summary div svg").toggleClass("fillActive");
-  $(".cmd__77 details summary svg").toggleClass("transformActive");
-}
-const blockActive78 = () => {
-  $(".cmd__78 details summary div svg").toggleClass("fillActive");
-  $(".cmd__78 details summary svg").toggleClass("transformActive");
-}
-const blockActive79 = () => {
-  $(".cmd__79 details summary div svg").toggleClass("fillActive");
-  $(".cmd__79 details summary svg").toggleClass("transformActive");
-}
-const blockActive80 = () => {
-  $(".cmd__80 details summary div svg").toggleClass("fillActive");
-  $(".cmd__80 details summary svg").toggleClass("transformActive");
-}
-const blockActive81 = () => {
-  $(".cmd__81 details summary div svg").toggleClass("fillActive");
-  $(".cmd__81 details summary svg").toggleClass("transformActive");
-}
-const blockActive82 = () => {
-  $(".cmd__82 details summary div svg").toggleClass("fillActive");
-  $(".cmd__82 details summary svg").toggleClass("transformActive");
-}
-const blockActive83 = () => {
-  $(".cmd__83 details summary div svg").toggleClass("fillActive");
-  $(".cmd__83 details summary svg").toggleClass("transformActive");
-}
-const blockActive84 = () => {
-  $(".cmd__84 details summary div svg").toggleClass("fillActive");
-  $(".cmd__84 details summary svg").toggleClass("transformActive");
-}
+const toggleActive = (num) => {
+  $(`.cmd__${num} details summary div svg`).toggleClass("fillActive");
+  $(`.cmd__${num} details summary svg`).toggleClass("transformActive");
+};
+
+const blockActive = () => toggleActive(1)
+const blockActive2 = () => toggleActive(2);
+const blockActive3 = () => toggleActive(3);
+const blockActive4 = () => toggleActive(4);
+const blockActive5 = () => toggleActive(5);
+const blockActive6 = () => toggleActive(6);
+const blockActive7 = () => toggleActive(7);
+const blockActive8 = () => toggleActive(8);
+const blockActive9 = () => toggleActive(9);
+const blockActive10 = () => toggleActive(10);
+const blockActive11 = () => toggleActive(11);
+const blockActive12 = () => toggleActive(12);
+const blockActive13 = () => toggleActive(13);
+const blockActive14 = () => toggleActive(14);
+const blockActive15 = () => toggleActive(15);
+const blockActive16 = () => toggleActive(16);
+const blockActive17 = () => toggleActive(17);
+const blockActive18 = () => toggleActive(18);
+const blockActive19 = () => toggleActive(19);
+const blockActive20 = () => toggleActive(20);
+const blockActive21 = () => toggleActive(21);
+const blockActive22 = () => toggleActive(22);
+const blockActive23 = () => toggleActive(23);
+const blockActive24 = () => toggleActive(24);
+const blockActive25 = () => toggleActive(25);
+const blockActive26 = () => toggleActive(26);
+const blockActive27 = () => toggleActive(27);
+const blockActive28 = () => toggleActive(28);
+const blockActive29 = () => toggleActive(29);
+const blockActive30 = () => toggleActive(30);
+const blockActive31 = () => toggleActive(31);
+const blockActive32 = () => toggleActive(32);
+const blockActive33 = () => toggleActive(33);
+const blockActive34 = () => toggleActive(34);
+const blockActive35 = () => toggleActive(35);
+const blockActive36 = () => toggleActive(36);
+const blockActive37 = () => toggleActive(37);
+const blockActive38 = () => toggleActive(38);
+const blockActive39 = () => toggleActive(39);
+const blockActive40 = () => toggleActive(40);
+const blockActive41 = () => toggleActive(41);
+const blockActive42 = () => toggleActive(42);
+const blockActive43 = () => toggleActive(43);
+const blockActive44 = () => toggleActive(44);
+const blockActive45 = () => toggleActive(45);
+const blockActive46 = () => toggleActive(46);
+const blockActive47 = () => toggleActive(47);
+const blockActive48 = () => toggleActive(48);
+const blockActive49 = () => toggleActive(49);
+const blockActive50 = () => toggleActive(50);
+const blockActive51 = () => toggleActive(51);
+const blockActive52 = () => toggleActive(52);
+const blockActive53 = () => toggleActive(53);
+const blockActive54 = () => toggleActive(54);
+const blockActive55 = () => toggleActive(55);
+const blockActive56 = () => toggleActive(56);
+const blockActive57 = () => toggleActive(57);
+const blockActive58 = () => toggleActive(58);
+const blockActive59 = () => toggleActive(59);
+const blockActive60 = () => toggleActive(60);
+const blockActive61 = () => toggleActive(61);
+const blockActive62 = () => toggleActive(62);
+const blockActive63 = () => toggleActive(63);
+const blockActive64 = () => toggleActive(64);
+const blockActive65 = () => toggleActive(65);
+const blockActive66 = () => toggleActive(66);
+const blockActive67 = () => toggleActive(67);
+const blockActive68 = () => toggleActive(68);
+const blockActive69 = () => toggleActive(69);
+const blockActive70 = () => toggleActive(70);
+const blockActive71 = () => toggleActive(71);
+const blockActive72 = () => toggleActive(72);
+const blockActive73 = () => toggleActive(73);
+const blockActive74 = () => toggleActive(74);
+const blockActive75 = () => toggleActive(75);
+const blockActive76 = () => toggleActive(76);
+const blockActive77 = () => toggleActive(77);
+const blockActive78 = () => toggleActive(78);
+const blockActive79 = () => toggleActive(79);
+const blockActive80 = () => toggleActive(80);
+const blockActive81 = () => toggleActive(81);
+const blockActive82 = () => toggleActive(82);
+const blockActive83 = () => toggleActive(83);
+const blockActive84 = () => toggleActive(84);
+const blockActive85 = () => toggleActive(85);
+const blockActive86 = () => toggleActive(86);
+const blockActive87 = () => toggleActive(87);
+const blockActive88 = () => toggleActive(88);
+const blockActive89 = () => toggleActive(89);
+const blockActive90 = () => toggleActive(90);
+const blockActive91 = () => toggleActive(91);
+const blockActive92 = () => toggleActive(92);
+const blockActive93 = () => toggleActive(93);
+const blockActive94 = () => toggleActive(94);
+const blockActive95 = () => toggleActive(95);
 
 // Вкладки
 const pink = "#e9cdeb";
@@ -397,3 +161,8 @@ const menu = () => {
     $(".menuActive").text("☰")
   }
 }
+
+// Copyright
+const date = new Date().getFullYear()
+
+$("#copyright").html(`&copy; Kamiko, 2023-${date}`)
