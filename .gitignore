@@ -1,4 +1,5 @@
 node_modules/
 replit.nix
 .replit
-style_cmd.css.map
+package-lock.json
+style.css.map
